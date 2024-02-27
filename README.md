@@ -12,9 +12,11 @@ The CIFAR file format may initially seem like a complex dataset with index mappi
 
 ### 2. Training Image Classifier
 
-Image below shows a successful training job (n=1000 images) and the performance. 
+Image below shows a successful training job (n=1000 images).
 
-![AWS Training Job](images/training_job.png)
+![AWS Training Job](images/training2.png)
+
+![AWS Training Job](images/model-deployment.png)
 
 ### 3. Deployment
 Image below shows the model endpoint against which predictions can be made. 
@@ -27,7 +29,7 @@ Design Time
 Execution Results
 ![AWS Workflow.](images/successful_statemachine_execution.png)
 
-### 5. Monitor
+### 5. Monitoring and Visualisations
 
 ![Model Monitor Results.](images/inference-graph.png)
 
